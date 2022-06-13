@@ -43,3 +43,9 @@ Select * from AddressBook where City='shiggav' Order By FirstName;
 -------------------UC7----------------------
 
 select count(*) from AddressBook where city='belgaum';
+
+-------------------UC8----------------------
+
+select FirstName,LastName ,City from AddressBook Order By City ASC;
+
+select FirstName,LastName ,City from AddressBook Order By City DESC;
