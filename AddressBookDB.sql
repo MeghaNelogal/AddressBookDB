@@ -32,3 +32,6 @@ select * from AddressBook
 
 Update AddressBook set Address = 'Rathod' where FirstName = 'Megha'
 
+---------uc5--------
+
+Delete from AddressBook where FirstName='Savita';
