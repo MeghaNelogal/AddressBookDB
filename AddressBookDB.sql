@@ -17,3 +17,14 @@ create table AddressBook
 	PhoneNumber bigint NOT NULL,
 	Email varchar(50) NOT NULL
 );
+
+-----------uc3---------
+
+Insert into AddressBook Values ('Megha','Nelogal','Banglore','Basaveshwar nagar','Karnataka',425404,'6360139273','megha@gmail.com'),
+('Savita','Nelogal','Bankapur','basavesh','karnataka',656544,'8888998890','savi@gmail.com'),
+('shalu','santosh','patil','shiggav','karnataka',425735,'8275591324','shalu@gmail.com'),
+('rahul','megha','hubli','belgaum','karnataka',564738,'9158564832','rahul@gmail.com'),
+('prabhu','Deshmukh','Indore','Indore','karnataka',679900,'8000446635','prabhu@gmail.com');
+
+select * from AddressBook
+
