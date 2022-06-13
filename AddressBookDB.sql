@@ -28,3 +28,7 @@ Insert into AddressBook Values ('Megha','Nelogal','Banglore','Basaveshwar nagar'
 
 select * from AddressBook
 
+----------uc4---------
+
+Update AddressBook set Address = 'Rathod' where FirstName = 'Megha'
+
