@@ -39,3 +39,7 @@ Delete from AddressBook where FirstName='Savita';
 -------------------UC6----------------------
 
 Select * from AddressBook where City='shiggav' Order By FirstName;
+
+-------------------UC7----------------------
+
+select count(*) from AddressBook where city='belgaum';
